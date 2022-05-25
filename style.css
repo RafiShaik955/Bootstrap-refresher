@@ -1,4 +1,4 @@
-.card{
+/* .card{
     position: absolute;
     top:50%;
     left: 50%;
@@ -17,4 +17,18 @@
 .btn:hover{
     color: white;
     background-color: black; 
+} */
+
+.whatsappImage{
+    display:none;
 }
+
+@media (max-width: 576px) { 
+    .whatsappImage{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        display: block;
+    }
+    
+ }
