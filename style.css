@@ -1,0 +1,20 @@
+.card{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border-color: yellow !important;
+    border-width: 5px;
+}
+
+.btn{
+    background-color: black; 
+    color: yellow;
+    margin-left: 25%;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black; 
+}
